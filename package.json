@@ -22,8 +22,26 @@
     "playwright": "^1.58.0",
     "publint": "^0.3.17",
     "typescript": "catalog:",
+    "vite": "catalog:",
     "vite-plus": "catalog:",
-    "vitest": "catalog:"
+    "vitest": "catalog:",
+    "@vitest/browser-playwright": "catalog:"
   },
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@10.34.4",
+  "pnpm": {
+    "overrides": {
+      "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.bb0445bf5599a389c324442a3f3f8a8a5db5d83d",
+      "vitest": "4.1.10"
+    },
+    "peerDependencyRules": {
+      "allowAny": [
+        "vite",
+        "vitest"
+      ],
+      "allowedVersions": {
+        "vite": "*",
+        "vitest": "*"
+      }
+    }
+  }
 }

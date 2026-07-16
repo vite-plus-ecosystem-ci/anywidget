@@ -27,7 +27,8 @@
   },
   "devDependencies": {
     "@jupyter-widgets/base": "^6",
-    "@jupyter-widgets/base-manager": "^1.0.12"
+    "@jupyter-widgets/base-manager": "^1.0.12",
+    "vitest": "catalog:"
   },
   "jupyterlab": {
     "extension": "./src/plugin.js",

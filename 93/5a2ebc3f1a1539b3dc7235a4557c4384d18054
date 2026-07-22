@@ -1,0 +1,37 @@
+.npmrc
+  s_37601f7e5402cc::t_600597cf1fc4a9 1-2
+package.json
+  s_e28d24e7d088d6::t_4688b9ab215e4a 25,27-28,30-46
+packages/anywidget/__tests__/widget.test.ts
+  s_37601f7e5402cc::t_2000ee3a872292 3-4
+packages/anywidget/package.json
+  s_37601f7e5402cc::t_8ab7c96e94bc5a 30-31
+packages/types/index.test-d.ts
+  s_37601f7e5402cc::t_f9981342835e37 1
+pnpm-workspace.yaml
+  s_37601f7e5402cc::t_e6501667f9f2fb 6-8,16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "935a2ebc3f1a1539b3dc7235a4557c4384d18054",
+  "prompts": {},
+  "sessions": {
+    "s_37601f7e5402cc": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_075d290fdffeXiYxJ0jrfpaLFG",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "wan9chi <dk4rest@gmail.com>"
+    },
+    "s_e28d24e7d088d6": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_075d29004ffeLo4ydZrYx04j1B",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "wan9chi <dk4rest@gmail.com>"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.npmrc
+  s_71a3b49c0bdf46::t_9a91d952bc206b 1-2
+docs/src/loaders/notebooks.test.ts
+  s_71a3b49c0bdf46::t_2c83b800ab7f58 1
+package.json
+  s_71a3b49c0bdf46::t_0417257dda60ce 20,24
+packages/anywidget/__tests__/widget.test.ts
+  s_71a3b49c0bdf46::t_efbcf3b0e50e55 3-4
+packages/anywidget/package.json
+  s_71a3b49c0bdf46::t_f2b336558ee943 31-32
+packages/types/index.test-d.ts
+  s_71a3b49c0bdf46::t_f505212d2acd11 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "bd737dd9c7b7259412694bde4665374845aa911a",
+  "prompts": {},
+  "sessions": {
+    "s_71a3b49c0bdf46": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d1129124-4b50-493c-a6b0-9bd30f8b1e4d",
+        "model": "claude-opus-5"
+      },
+      "human_author": "MK <fengmk2@gmail.com>"
+    }
+  }
+}

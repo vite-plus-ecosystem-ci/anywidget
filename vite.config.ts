@@ -24,9 +24,13 @@ export default defineConfig({
     options: { typeAware: true, typeCheck: true },
   },
   test: {
+    clearMocks: false,
+    sharedViteServer: false,
     projects: [
       {
+        extends: false,
         test: {
+          clearMocks: false,
           exclude: ["**/node_modules/**", "**/dist/**", "packages/anywidget/**"],
           name: "unit",
           environment: "node",
@@ -36,10 +40,13 @@ export default defineConfig({
         },
       },
       {
+        extends: false,
         test: {
+          clearMocks: false,
           include: ["packages/anywidget/**/*.test.{js,ts}"],
           name: "browser",
           browser: {
+            locators: { exact: false },
             enabled: true,
             headless: true,
             instances: [{ browser: "chromium", provider: playwright() }],

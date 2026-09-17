@@ -42,5 +42,7 @@ minimumReleaseAgeExclude:
   - vitest
   - "@vitest/*"
 overrides:
+  "@clack/prompts": 1.7.0
+  "@clack/core": 1.4.3
   vite@*: "catalog:"
   vitest@*: "catalog:"

@@ -41,6 +41,8 @@ catalogs:
       version: 4.1.11
 
 overrides:
+  '@clack/prompts': 1.7.0
+  '@clack/core': 1.4.3
   vite@*: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa
   vitest@*: 4.1.11
 
@@ -143,8 +145,8 @@ importers:
   packages/create-anywidget:
     dependencies:
       '@clack/prompts':
-        specifier: ^1.2.0
-        version: 1.8.1
+        specifier: 1.7.0
+        version: 1.7.0
       just-snake-case:
         specifier: ^3.2.0
         version: 3.2.0
@@ -479,12 +481,12 @@ packages:
   '@changesets/write@0.4.0':
     resolution: {integrity: sha512-CdTLvIOPiCNuH71pyDu3rA+Q0n65cmAbXnwWH84rKGiFumFzkmHNT8KHTMEchcxN+Kl8I54xGUhJ7l3E7X396Q==, tarball: https://registry.npmjs.org/@changesets/write/-/write-0.4.0.tgz}
 
-  '@clack/core@1.5.1':
-    resolution: {integrity: sha512-iHTrHA8MtVuLl2TfZySmcKv1qO2PoyC9Z7pfSDozEuV5vtY3/wcOPKJXlqJ5Oq2Cx5DDGQGAMVx6HZfRRoVEbQ==, tarball: https://registry.npmjs.org/@clack/core/-/core-1.5.1.tgz}
+  '@clack/core@1.4.3':
+    resolution: {integrity: sha512-/kr3UWNtdJfxZtPgDqUOmG2pvwlmcLGheex5yiZKdwbzZJxhV+HMNR9QNmyY5cGwTNV6LrR7Jtp+KjhUAP1qBQ==, tarball: https://registry.npmjs.org/@clack/core/-/core-1.4.3.tgz}
     engines: {node: '>= 20.12.0'}
 
-  '@clack/prompts@1.8.1':
-    resolution: {integrity: sha512-dlT1m5e/0yUL0kRNcQn7yGLVThkgbB0Ga/1AmfDDC/8ik6AIiSf2QLQO2zPYvefsHP0aFgxO93cVLCCfDp7kzQ==, tarball: https://registry.npmjs.org/@clack/prompts/-/prompts-1.8.1.tgz}
+  '@clack/prompts@1.7.0':
+    resolution: {integrity: sha512-y7/yvZ2TPAnR9+jnc00klvNNLkJiXFFrQA/hlLCcxA9a2A4zQIOimyFQ9XfwYKiGD1fb5GY8vbKIIgO8d5Tb2A==, tarball: https://registry.npmjs.org/@clack/prompts/-/prompts-1.7.0.tgz}
     engines: {node: '>= 20.12.0'}
 
   '@docsearch/css@4.7.0':
@@ -4236,14 +4238,14 @@ snapshots:
       human-id: 4.2.1
       prettier: 2.8.8
 
-  '@clack/core@1.5.1':
+  '@clack/core@1.4.3':
     dependencies:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@clack/prompts@1.8.1':
+  '@clack/prompts@1.7.0':
     dependencies:
-      '@clack/core': 1.5.1
+      '@clack/core': 1.4.3
       fast-string-width: 3.0.2
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
@@ -5549,7 +5551,7 @@ snapshots:
       '@astrojs/markdown-satteri': 0.4.1
       '@astrojs/telemetry': 3.3.3
       '@capsizecss/unpack': 4.0.1
-      '@clack/prompts': 1.8.1
+      '@clack/prompts': 1.7.0
       '@oslojs/encoding': 1.1.0
       am-i-vibing: 0.4.0
       aria-query: 5.3.2

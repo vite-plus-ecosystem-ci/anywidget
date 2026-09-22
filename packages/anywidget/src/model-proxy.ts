@@ -15,7 +15,6 @@ export let INITIALIZE_MARKER = Symbol("anywidget.initialize");
  * added by user-defined hooks.
  */
 export function modelProxy(model: DOMWidgetModel, context: unknown): AnyModel {
-  // oxlint-disable-next-line typescript-eslint/no-unsafe-type-assertion -- DOMWidgetModel.get/set/on/off have wider signatures than AnyModel, so bound versions don't narrow cleanly; the shape is structurally compatible
   return {
     get: model.get.bind(model),
     set: model.set.bind(model),

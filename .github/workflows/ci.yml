@@ -78,6 +78,9 @@ jobs:
       - uses: voidzero-dev/setup-vp@v1
         with:
           cache: true
+      # Ecosystem-ci smoke test: `vp dlx playwright` installs the browsers of the
+      # latest Playwright, which do not match the project's pinned playwright.
+      # Install the browsers of the locally installed version instead.
       - run: |
-          vp dlx playwright install
+          vp exec playwright install
           vp test

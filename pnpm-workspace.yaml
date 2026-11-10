@@ -11,9 +11,9 @@ packageExtensions:
     dependencies:
       "@babel/code-frame": ^7.0.0
 catalog:
-  vite: npm:@voidzero-dev/vite-plus-core@^1.5.0
-  vitest: ^5.1.0
-  vite-plus: ^1.5.0
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
+  vitest: 5.1.0
+  vite-plus: 0.0.0-commit.a86fd1603196e23718d16144a472ad91b4ba21be
   esbuild: ^0.28.2
   typescript: ^7.0.2
   react: ^19.3.1
@@ -21,6 +21,7 @@ catalog:
   "@types/react": ^19.3.0
   "@types/react-dom": ^19.3.0
   "@types/node": ^26.6.6
+  "@vitest/browser-playwright": 5.1.0
 peerDependencyRules:
   allowAny:
     - vite
@@ -46,3 +47,6 @@ minimumReleaseAgeExclude:
   - yuku-parser
   - "@yuku-core/*"
   - "@yuku-toolchain/*"
+overrides:
+  vite@*: "catalog:"
+  vitest@*: "catalog:"

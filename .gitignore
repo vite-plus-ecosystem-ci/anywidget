@@ -22,3 +22,4 @@ _build/
 __screenshots__/
 .venv
 .DS_Store
+.vitest/
